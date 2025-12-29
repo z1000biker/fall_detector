@@ -56,7 +56,21 @@ If a person becomes occluded, partially visible, or disappears after a collapse,
 **False positives are preferable to false reassurance.** The system is deliberately biased toward erring on the side of alerting when confidence is lost.
 
 ---
+## Example Corridor Detections
 
+Below are example screenshots from the system running in **CORRIDOR (STRICT)** mode.  
+Each image shows a detected posture collapse with the system transitioning into a safety-critical state.
+
+### Example 1: Detected Collapse With Alert Latching
+![Detected collapse example](1.png)
+
+This example shows a person detected in a horizontal posture following a collapse event.  
+The system has escalated the state and latched the alert rather than silently resolving.
+
+### Example 2: Multi-Person Corridor Scenario
+![Detected collapse in corridor](3.png)
+
+This example demonstrates detection in a real corridor environment with explicit labeling, bounding boxes, and safety state visualization.
 ## System Architecture
 
 ### High-Level Pipeline
