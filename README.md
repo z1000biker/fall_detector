@@ -71,6 +71,20 @@ The system has escalated the state and latched the alert rather than silently re
 ![Detected collapse in corridor](3.png)
 
 This example demonstrates detection in a real corridor environment with explicit labeling, bounding boxes, and safety state visualization.
+
+### Example 3: Normal Corridor Operation (No Alert)
+![Normal corridor operation](2.png)
+
+This image shows the system during normal operation, with multiple people walking in a corridor.  
+No alerts are active, and posture states remain upright.
+
+### Alert Acknowledged (Human-in-the-Loop Resolution)
+
+![Alert acknowledged state](4.png)
+
+This screenshot shows the system after an alert has been acknowledged by a human operator.  
+The alert remains visible and logged, but panic signaling is reduced until recovery is confirmed.
+
 ## System Architecture
 
 ### High-Level Pipeline
