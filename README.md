@@ -1,5 +1,13 @@
 # Camera-Based Collapse & Non-Recovery Detection
 
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-enabled-green)
+![YOLOv8](https://img.shields.io/badge/YOLOv8--Pose-ultralytics-orange)
+![Status](https://img.shields.io/badge/status-experimental--safety--critical-yellow)
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
+![Platform](https://img.shields.io/badge/platform-single--camera-lightgrey)
+![Scope](https://img.shields.io/badge/scope-corridor--only-red)
+
 > **A Safety-Oriented, Single-Camera Corridor Monitoring System**
 
 ## Overview
