@@ -59,7 +59,7 @@ If a person becomes occluded, partially visible, or disappears after a collapse,
 ## Example Corridor Detections
 
 Below are example screenshots from the system running in **CORRIDOR (STRICT)** mode.  
-Each image shows a detected posture state.
+Each image shows a conceptual/detected posture state. Working examples in your case are expected to be similar.
 
 ### Example 1: Detected Collapse With Alert Latching
 ![Detected collapse example](1.png)
