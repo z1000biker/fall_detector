@@ -67,10 +67,10 @@ Each image shows a detected posture state.
 This example shows a person detected in a horizontal posture following a collapse event.  
 The system has escalated the state and latched the alert rather than silently resolving.
 
-### Example 2: Multi-Person Corridor Scenario
+### Example 2: Multi-Person Corridors Scenario
 ![Detected collapse in corridor](3.png)
 
-This example demonstrates detection in a real corridor environment with explicit labeling, bounding boxes, and safety state visualization.
+This example demonstrates detection in three cams monitoring three corridor environments with explicit labeling, bounding boxes, and safety state visualization. This version of the software supports only one camera per runtime.
 
 ### Example 3: Normal Corridor Operation (No Alert)
 ![Normal corridor operation](2.png)
